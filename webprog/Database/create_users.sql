@@ -1,0 +1,1 @@
+CREATE TABLE `vehicles`.`users` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `zipcode` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `usrname` VARCHAR(255) NOT NULL , `password` VARCHAR(255) NOT NULL , `register_date` TIMESTAMP NOT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM;
